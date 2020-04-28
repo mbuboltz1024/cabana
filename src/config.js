@@ -28,7 +28,7 @@ export const CAN_GRAPH_MAX_POINTS = 5000;
 export const STREAMING_WINDOW = 60;
 
 const ENV_EXPLORER_URL = {
-  debug: 'http://127.0.0.1:3000/',
-  prod: 'https://my.comma.ai/'
+  debug: 'http://opcommunity.net:3000/',
+  prod: 'http://opcommunity.net:3000/'
 };
 export const EXPLORER_URL = ENV_EXPLORER_URL[ENV];

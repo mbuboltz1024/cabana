@@ -31,7 +31,7 @@ def callback():
 
   route = json.loads(state)['route']
 
-  return redirect('http://127.0.0.1:3000/?route={}&gh_access_token={}'.format(route, oauth_resp['access_token']))
+  return redirect('http://opcommunity.net:3000/?route={}&gh_access_token={}'.format(route, oauth_resp['access_token']))
 
 if __name__ == '__main__':
   app.run(port=1235)
